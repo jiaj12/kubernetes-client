@@ -285,5 +285,18 @@ Then you can use the server like:
     }
 
 
+## Kubernetes Version Compatibility
+
+
+
+| fabric8 java client version | Kubernetes version | 
+| --------------------------- | ------------------ | 
+| 2.1.0+                      | 1.7+               | 
+| before 2.1.0                | before 1.7         | 
+
+Fabric8 :: Kubernetes :: Java Client » 2.1.0 supports the kubernetes version after 1.7
+if you use k8s version before 1.7, please use java client version older than 2.1.0
+
+
 
 
